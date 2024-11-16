@@ -1,0 +1,299 @@
+
+
+body{
+    height: 8200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(192, 198, 202, 0.116);
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+.carousel-item img{
+    height: 100vh;
+}
+
+.active{
+    color: red;
+}
+.navbar-nav .nav-item .active{
+    font-size: 20px;
+}
+
+.carousel-caption{
+    background-color: rgba(168, 161, 146, 0.479);
+    border-radius: 10px;
+    padding: 50px;
+}
+.btn4{
+    background-color: rgba(114, 216, 54, 0.795);
+}
+.carousel-caption button{
+    background-color: rgba(25, 194, 33, 0.767);
+    
+}
+.dropdown-menu{
+    background-color: rgba(0, 128, 0, 0.151);
+}
+.dropdown-menu .dropdown-item{
+    color: rgb(66, 250, 66);
+}
+.nav-item:hover .dropdown-toggle::first-letter{
+    color: rgb(202, 79, 151);
+    font-size: 19px;
+}
+.div1 .icon{
+    font-size: 40px;
+    
+}
+.icon:hover{
+ color: greenyellow;
+}
+
+.con1{
+    height: 220px;
+    background-color: rgba(149, 196, 95, 0.671);
+}
+.con2{
+    height: 2px;
+    background-color: gray;
+}
+.con3{
+    height: 160px;
+}
+.con4{
+    height: 90px;
+    border-radius: 10px;
+    background-color: rgba(149, 196, 95, 0.753);
+}
+.con5{
+    height: 270px;
+    background-color: rgba(149, 196, 95, 0.671);
+}
+.h1{
+    text-transform: capitalize;
+}
+.text{
+    border-radius: 10px;
+}
+.modal-body.show{
+    z-index: -1;
+}
+
+.con7{
+   background-image: url(../images/nice-landscape-with-boat.jpg);
+   height: 300px;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.h11{
+    text-transform: uppercase;
+}
+.con6{
+    margin-top: -2;
+}
+.card{
+    margin: auto;
+    margin-top: 28px;
+    position: relative;
+}
+.card::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.card:hover::after{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(228, 52, 198, 0.945);
+    opacity: 0.3;
+    visibility: visible;
+    transition: 1s;
+}
+
+.card::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.card:hover::before{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(228, 52, 199, 0.884);
+    opacity: 0.3;
+    visibility: visible;
+    transition: 1s;
+}
+.card4{
+    position: relative;
+}
+
+.card4::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.card4:hover::after{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 197, 30, 0.829);
+    opacity: .4;
+    visibility: visible;
+    transition: 1s;
+}
+
+.card4::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.card4:hover::before{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 197, 30, 0.829);
+    opacity: .4;
+    visibility: visible;
+    transition: 1s;
+}
+.con9{
+    background-color: rgba(238, 245, 236, 0.452);
+}
+.con10{
+    background-image: url(../images/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parent{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 42px;
+    
+}
+
+
+.itemss{
+    width: 340px;
+    height: 370px;
+    background-image: url(../images/download.jpeg);
+    background-size: cover;
+    border-radius: 10% !important;
+    position: relative;
+}
+.it3{
+    margin-left:10px;
+}
+.it{
+    background-image: url(../images/foto\ febbraio\ .jpeg);
+    background-size: cover;
+}
+.it2{
+    background-image: url(../images/Christian-Koerner-4.png);
+    background-size: cover;
+    /* margin-left: -10px; */
+    margin-right: 20px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(62, 66, 59, 0.493);
+    border-radius: 10% !important;
+}
+.image1 img{
+    width: 90px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.image1 h6 , span{
+    color: rgb(241, 236, 236);
+}
+.itemss:hover{
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+.overlay:hover{
+    background-color: rgba(68, 138, 15, 0.493);
+    cursor: pointer;
+}
+.overlay:hover .infoo{
+    margin-top: 10px;
+}
+.card-line{
+    height: 3px;
+    width: 80px;
+    background: -webkit-linear-gradient(top left, rgba(91, 209, 91, 0.932), rgba(230, 230, 18, 0.87));
+    border-radius: 5px;
+    margin-top: -10px;
+    transition: 0.5s;
+}
+.card8:hover .card-line{
+    width: 160px;
+}
+.card8{
+    width: 92%;
+    background: -webkit-linear-gradient(top left, rgba(175, 196, 175, 0.795), rgba(209, 209, 110, 0.692));
+    border-radius: 10px;
+}
+.card8 .unorderd-list{
+    margin-top: 70px;
+    
+}
+.unorderd-list li:last-child:hover{
+    background-color: rgba(20, 170, 20, 0.719) !important;
+    cursor: pointer;
+} 
+
+@media (min-width: 768px ){
+    .img-l{
+        clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    }
+    .img-r{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+    }
+}
+.img-l , .img-r{
+    transition: 0.5s;
+}
+.card8:hover .img-l ,.card8:hover .img-r{
+    transform: scale(1.007);
+}
+.card6{
+    box-shadow: 2px 2px 5px 5px rgba(213, 228, 127, 0.664);
+}
+.join{
+    box-shadow: 2px 2px 5px 5px rgba(162, 200, 214, 0.664);
+}
+.foot-info a:hover{
+    color: black;
+}
