@@ -41,7 +41,7 @@ li{
     background-color: rgba(0, 128, 0, 0.151);
 }
 .dropdown-menu .dropdown-item{
-    color: rgb(66, 250, 66);
+    color: rgb(102, 255, 0);
 }
 .nav-item:hover .dropdown-toggle::first-letter{
     color: rgb(202, 79, 151);
@@ -189,34 +189,30 @@ li{
     background-size: cover;
 }
 
-.parent{
-    margin: auto;
-    margin-top: 50px;
-    margin-left: 42px;
-    
-}
-
-
-.itemss{
+.thanks-item{
     width: 340px;
     height: 370px;
     background-image: url(../images/download.jpeg);
     background-size: cover;
     border-radius: 10% !important;
     position: relative;
+    background-repeat: no-repeat;
 }
 .it3{
     margin-left:10px;
 }
-.it{
+.thanks-item.md{
     background-image: url(../images/foto\ febbraio\ .jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
-.it2{
+.thanks-item.last{
     background-image: url(../images/Christian-Koerner-4.png);
     background-size: cover;
-    /* margin-left: -10px; */
-    margin-right: 20px;
+    background-repeat: no-repeat;
+}
+.thanks-item:hover{
+    transform: scale(0.9);
 }
 
 .overlay{
